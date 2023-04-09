@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as e}from"./chunks/framework.7e203a6d.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"upload-data/gazepoint.md"}'),o={name:"upload-data/gazepoint.md"};function n(r,p,s,c,d,i){return a(),e("div")}const m=t(o,[["render",n]]);export{l as __pageData,m as default};

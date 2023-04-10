@@ -14,7 +14,7 @@ For a quick start of the GazePlotter workplace, you can hit the `Try demo data` 
 ## Upload your own data
 You can upload your own data files to the GazePlotter workplace. The workplace will automatically detect the file type and start a visualization of the data. The workplace supports the following file types:
 
-- [Tobii Pro Lab](./tobii-pro-lab/)
-- [OGAMA](./ogama/)
-- [GazePoint](./gazepoint/)
-- [SMI BeGaze](./smi-begaze/)
+- [Tobii Pro Lab](./tobii-pro-lab.md)
+- [OGAMA](./ogama.md)
+- [GazePoint](./gazepoint.md)
+- [SMI BeGaze](./smi-begaze.md)

@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as e,N as o}from"./chunks/framework.7e203a6d.js";const m=JSON.parse('{"title":"OGAMA upload","description":"","frontmatter":{},"headers":[],"relativePath":"upload-data/ogama.md"}'),r={name:"upload-data/ogama.md"},i=o("",4),p=[i];function s(d,n,l,c,_,u){return t(),e("div",null,p)}const f=a(r,[["render",s]]);export{m as __pageData,f as default};

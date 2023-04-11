@@ -7,7 +7,7 @@ hero:
   text: "User guide & docs"
   tagline: "Guide to visualizing gaze data via interactive scarf charts in the browser from eye-tracker software output files."
   actions:
-    - theme: brand
+    - theme: alt
       text: Go to the app
       link: https://gazeplotter.com
     - theme: alt

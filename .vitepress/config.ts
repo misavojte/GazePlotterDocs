@@ -26,10 +26,10 @@ export default defineConfig({
         text: 'Uploading Data',
         items: [
           {text: 'Getting started', link: '/upload-data/'},
-          {text: 'Tobii Pro Lab', link: '/upload-data/tobii-pro-lab'},
-          {text: 'SMI BeGaze', link: '/upload-data/smi-begaze'},
-          {text: 'OGAMA', link: '/upload-data/ogama'},
-          {text: 'GazePoint', link: '/upload-data/gazepoint'},
+          {text: 'Tobii Pro Lab upload', link: '/upload-data/tobii-pro-lab'},
+          {text: 'SMI BeGaze upload', link: '/upload-data/smi-begaze'},
+          {text: 'OGAMA upload', link: '/upload-data/ogama'},
+          {text: 'GazePoint upload', link: '/upload-data/gazepoint'},
         ]
       },
       {

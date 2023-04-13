@@ -1,9 +1,23 @@
 # OGAMA upload
 GazePlotter supports the upload of data from the [OGAMA](https://ogama.net) eye-tracking software. 
 
-Their big limitation is that they support only ordinal type of timeline in interactive scarf plots (sequence charts). OGAMA doesn't support dynamic AOI visibility information.
+::: warning
+Big limitation of OGAMA export is support only for ordinal type of timeline (see [Timelines](/basic/timelines.md)) in interactive scarf plots. OGAMA doesn't support dynamic AOI visibility information.
+:::
+::: warning
+OGAMA export doesn't support dynamic AOI visibility information.
+:::
 
-## Export & upload basic data
+## Export & upload
 
-Just do it.
+In the OGAMA software, select:
+1. `Scanpath Module`
+2. `Check to display Levenshtein Distance calculation tools`
+3. `Use Areas of Interest to divide the stimulus picture into subsequences`
+4. `Export similarity measurements to data sheet`
+5. `Sequence Similarity`
+
+Then click `OK` to export the data. 
+
+Select the exported file after clicking `Upload data` button (see more information in [GazePlotter GUI overview](/basic/)) in to start the upload and visualization.
 

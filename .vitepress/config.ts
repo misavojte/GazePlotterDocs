@@ -17,7 +17,8 @@ export default defineConfig({
     nav: [
       {text: 'Home', link: '/'},
       {text: 'Uploading Data', link: '/upload-data/'},
-      {text: 'Examples', link: '/markdown-examples'},
+      {text: 'Basic Usage', link: '/basic/'},
+      {text: 'Advanced', link: '/advanced/'},
       {text: 'Go to App', link: 'https://gazeplotter.com'}
     ],
     sidebar: [
@@ -32,17 +33,22 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Using Workplace',
+        text: 'Basic Usage',
         items: [
-          {text: 'Markdown Examples', link: '/markdown-examples'},
-          {text: 'Runtime API Examples', link: '/api-examples'}
+          {text: 'GazePlotter overview', link: '/basic/'},
+          {text: 'Timelines', link: '/basic/timelines'},
+          {text: 'Customizing scarf plot', link: '/basic/customizing-scarf-plot'},
+          {text: 'Adding AOI visibility', link: '/basic/aoi-visibility'},
+          {text: 'ScanGraph integration', link: '/basic/scangraph-integration'},
         ]
       },
       {
-        text: 'Examples',
+        text: 'Advanced',
         items: [
-          {text: 'Markdown Examples', link: '/markdown-examples'},
-          {text: 'Runtime API Examples', link: '/api-examples'}
+          {text: 'Advanced features', link: '/advanced/'},
+          {text: 'Download GazePlotter', link: '/advanced/download-gazeplotter'},
+          {text: 'App dev & build', link: '/advanced/app-dev-build'},
+          {text: 'Docs dev & build', link: '/advanced/docs-dev-build'},
         ]
       }
     ],

@@ -28,7 +28,5 @@ GazePlotter is available for download on mobile and tablets, too. Usually, the i
 ## PWA app on iOS
 For iOS iPhones and iPads, the download of the PWA is available only in Safari in April 2023. Press the share button and select `Add to Home Screen`.
 
-![](./img/safari-mobile-download.jpeg)
-
 ## Source code
 You can also build and run the GazePlotter site from the source code. More on how to build the site from it is available in the [Dev environment](./app-dev-build.md) section.

@@ -1,0 +1,1 @@
+# Adding AOI visibility data

@@ -15,7 +15,7 @@ hero:
       link: /upload-data
     - theme: alt
       text: How to navigate GUI?
-      link: /api-reference
+      link: /basic
 
 features:
   - title: Want a new feature? Found a bug?

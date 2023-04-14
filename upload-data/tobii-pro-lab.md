@@ -11,7 +11,7 @@ Tobii Pro Lab export doesn't support dynamic AOI visibility information.
 
 ## Export & upload
 
-In the Tobii Pro Lab software, select `Analyze Data > Export`. 
+In the Tobii Pro Lab software, select `Analyze > Data Export`. 
 
 Make sure, that in the right panel called `Format` you have selected `Single standard file (.tsv)`. 
 
@@ -22,7 +22,6 @@ Select only the following metrics for export to speed up the upload process:
 | Participant name        |
 | Recording name          |
 | Presented Stimulus name |
-| Recording timestamp     |
 | Eye movement type       |
 | Event                   |
 | AOI hit                 |

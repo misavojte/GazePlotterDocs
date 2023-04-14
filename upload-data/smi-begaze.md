@@ -8,8 +8,6 @@ GazePlotter supports the upload of data from the SMI BeGaze eye-tracking softwar
 From SMI BeGaze, you can visualize eye-tracking AOI data with all timeline types (absolute, relative, and ordinal). You can also visualize dynamic AOI visibility information.
 
 ## Export & upload basic data
-To upload data from SMI BeGaze, you need to export the data as a `.csv` file. Make sure that columns are separated by a comma (`,`).
-
 ### No overlaying AOIs
 If you don't have multiple AOI hits in the same fixation (caused by AOI overlay), the `.csv` file can be exported from the SMI BeGaze software by selecting
 1. `Export`
@@ -28,6 +26,8 @@ In this tab, check the following metrics for export:
 | AOI Information          | AOI Name                                                                 |
 | Event Details            | Event Start Trial Time [ms]                                              |
 |                          | Event End Trial Time [ms]                                                |
+
+Make sure that columns are separated by a comma (`tab`) and decimal separator is a point (`.`).
 
 Then click `Export` to export the data.
 
@@ -51,6 +51,8 @@ Then, in the SMI BeGaze software, select:
 | AOI Information          | AOI Name                                                                 |
 | Event Details            | Event Start Trial Time [ms]                                              |
 |                          | Event End Trial Time [ms]                                                |
+
+Make sure that columns are separated by a comma (`tab`) and decimal separator is a point (`.`).
 
 Then click `Export` to export the data.
 

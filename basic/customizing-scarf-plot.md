@@ -2,7 +2,7 @@
 
 GazePlotter's scarf plots can be customized in many ways. Except for changing of [AOI color, order and name](#changing-aoi-color-order-and-name), and width of the [absolute time timeline](#changing-the-width-of-the-absolute-time-timeline), you can also change [timeline representations](/basic/timelines.md) or [add AOI visibility info](/basic/aoi-visibility.md).
 
-## Changing AOI color, order and name
+## AOI color, order and name
 
 You can change the color, order and name of the AOI:
 1. Click on the `Settings` button on the scarf plot.
@@ -19,7 +19,7 @@ You can change the color, order and name of the AOI:
 Order of AOIs is changed in the legend and in the sequence chart (on AOIs hit overlap) as well.
 :::
 
-## Changing the width of the absolute time timeline
+## Width of the absolute time timeline
 
 Steps and width of the absolute time timeline is by default determined automatically. You can change the width of the absolute time timeline by clicking on the `Settings` button in the main workplace and then clicking on the `Timeline Settings` tab in newly opened settings window. In the `Timeline Settings` tab, you can change the width of the absolute time timeline by clicking on the `Change width` button. You can also change the steps of the absolute time timeline:
 1. Click on the `Settings` button on the scarf plot.

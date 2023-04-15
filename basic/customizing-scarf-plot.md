@@ -28,3 +28,7 @@ Steps and width of the absolute time timeline is by default determined automatic
 4. Click on the `Confirm changes` button. The scarf plot will be updated with the changes.
 
 ![](./img/customizing-scarf-plot/2.jpg)
+
+::: danger
+If you change the width of the absolute time timeline to lower value than the width of the longest scanpath, the scanpath will be cut off.
+:::

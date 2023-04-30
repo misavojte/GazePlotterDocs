@@ -21,7 +21,7 @@ Order of AOIs is changed in the legend and in the sequence chart (on AOIs hit ov
 
 ## Width of the absolute time timeline
 
-Steps and width of the absolute time timeline is by default determined automatically. You can change the width of the absolute time timeline by clicking on the `Settings` button in the main workplace and then clicking on the `Timeline Settings` tab in newly opened settings window. In the `Timeline Settings` tab, you can change the width of the absolute time timeline by clicking on the `Change width` button. You can also change the steps of the absolute time timeline:
+Steps and width of the absolute time timeline is by default determined automatically. You can also change the steps of the absolute time timeline:
 1. Click on the `Settings` button on the scarf plot.
 2. Decide whether you want to change the width only for current stimulus or for all stimuli in the data.
 3. Write the new width of the absolute time timeline in `ms` (0 for auto width).

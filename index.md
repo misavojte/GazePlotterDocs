@@ -8,14 +8,11 @@ hero:
   tagline: "Guide to visualizing gaze data via interactive scarf charts in the browser from eye-tracker software output files."
   actions:
     - theme: alt
-      text: Go to the app
-      link: https://gazeplotter.com
-    - theme: alt
       text: How to start app?
-      link: /upload-data
+      link: /upload-data/
     - theme: alt
       text: How to navigate GUI?
-      link: /basic
+      link: /basic/
 
 features:
   - title: Want a new feature? Found a bug?

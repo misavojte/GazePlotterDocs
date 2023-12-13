@@ -23,8 +23,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: List output files
+        run: ls -l GazePlotterDocs/.vitepress/dist
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.2
         with:
           branch: gh-pages
-          folder: .vitepress/dist
+          folder: GazePlotterDocs/.vitepress/dist

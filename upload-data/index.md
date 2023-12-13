@@ -19,6 +19,8 @@ The workplace supports the following file types:
 - [OGAMA](./ogama.md)
 - [GazePoint](./gazepoint.md)
 - [SMI BeGaze](./smi-begaze.md)
+- [Varjo XR](./varjo.md)
+- [Custom CSV](./custom-csv.md)
 
 ### Workplace data import
 You can also select `.json` data from the GazePlotter workplace for data upload. This is useful if you want to share your data with someone else.

@@ -30,6 +30,8 @@ export default defineConfig({
           {text: 'SMI BeGaze upload', link: '/upload-data/smi-begaze'},
           {text: 'OGAMA upload', link: '/upload-data/ogama'},
           {text: 'GazePoint upload', link: '/upload-data/gazepoint'},
+          {text: 'Varjo upload', link: '/upload-data/varjo'},
+          {text: 'Custom CSV', link: '/upload-data/custom-csv'},
         ]
       },
       {

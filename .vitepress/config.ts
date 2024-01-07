@@ -5,13 +5,14 @@ export default defineConfig({
   title: "GazePlotter Docs",
   description: "GazePlotter user guide",
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
       message: '<a href="https://vojtechovska.com/">Michaela Vojtěchovská</a> and Stanislav Popelka, <a href="https://geoinformatics.upol.cz/">Department of Geoinformatics, Palacký University Olomouc</a> ©2023',
-      copyright: 'Distributed under the GNU General Public License v2.0'
+      copyright: 'Distributed under the GNU General Public License v3.0'
     },
     logo: '/logo.svg',
     nav: [
@@ -52,11 +53,13 @@ export default defineConfig({
           {text: 'App dev & build', link: '/advanced/app-dev-build'},
           {text: 'Docs dev & build', link: '/advanced/docs-dev-build'},
         ]
-      }
+      },
     ],
-
     socialLinks: [
-      {icon: 'github', link: 'https://github.com/misavojte/GazePlotter'}
+      {
+        icon: 'github',
+        link: 'https://github.com/misavojte/gazeplotter'
+      },
     ]
   }
 })

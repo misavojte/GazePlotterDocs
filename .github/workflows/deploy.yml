@@ -1,11 +1,11 @@
-name: Deploy
+name: Deploy VitePress with GitHub Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -31,7 +31,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the Node version
+          node-version: '20'  # Specify the Node version
+
+      - name: Clear node_modules and package-lock.json
+        run: |
+          rm -rf node_modules
+          rm -rf package-lock.json
 
       - name: Install Dependencies
         run: npm install
@@ -43,7 +48,6 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: .vitepress/dist
-
   # Deployment job
   deploy:
     environment:

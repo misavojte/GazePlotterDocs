@@ -27,7 +27,7 @@ In this tab, check the following metrics for export:
 | Event Details            | Event Start Trial Time [ms]                                              |
 |                          | Event End Trial Time [ms]                                                |
 
-Make sure that columns are separated by a comma (`tab`) and decimal separator is a point (`.`).
+Make sure that columns are separated by a tabulator (`tab`) and decimal separator is a point (`.`).
 
 Then click `Export` to export the data.
 

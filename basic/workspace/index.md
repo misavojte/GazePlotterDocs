@@ -33,3 +33,5 @@ Both adding and removing plots are done by:
 1. Clicking on the `More options` button in the top right corner of the scarf plot.
 2. Selecting `Duplicate scarf plot` for adding a new plot to the closest empty space in the workspace,
 3. or `Delete scarf plot` for removing the plot from the workspace.
+
+![Adding and removing scarf plots in the GazePlotter tool](./4.png)

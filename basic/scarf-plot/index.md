@@ -13,3 +13,12 @@ In GazePlotter, scarf plots have following main controls:
 
 ## More options
 After clicking on the `More options` button, a pop-up menu with additional options for the scarf plot will appear. The following options are available:
+1. **Customize AOIs** - opens the `AOIs Settings` tab in the settings window, where you can change the color, order, and name of the AOIs (see [Customize AOIs](/basic/customize-AOIs.md)).
+2. **Add AOI visibility data** - opens a window for adding AOI visibility data to the scarf plot (see [Adding AOI visibility data](/basic/aoi-visibility.md)).
+3. **Participant grouping** - opens a window for grouping participants in the scarf plot (see [Participant grouping](/basic/participant-grouping.md)).
+4. **Clip timeline** - opens a window for clipping the timeline in the scarf plot (see [Clip timeline](/basic/clip-timeline.md)).
+5. **Download scarf plot** - downloads the scarf plot as an image file (PNG, JPEG, WEBP or SVG).
+6. **Duplicate scarf plot** - duplicates the scarf plot in the nearest empty space in the workspace (see [Workspace](/basic/workspace.md)).
+7. **Delete scarf plot** - deletes the scarf plot from the workspace (see [Workspace](/basic/workspace.md)).
+
+![Scarf plot more options in the GazePlotter tool](2.jpg)

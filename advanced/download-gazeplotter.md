@@ -16,9 +16,13 @@ Down, you can see examples how the install button looked like in different brows
 
 ### Chrome
 
+PWA apps in a desktop version of Chrome are available in the search bar. The install button is located in the search bar (the right side of the address bar).
+
 ![](./img/chrome-desktop-download.png)
 
 ### Edge
+
+PWA apps in a desktop version of Edge are available in the search bar. The install button is located in the search bar (the right side of the address bar).
 
 ![](./img/edge-desktop-download.png)
 

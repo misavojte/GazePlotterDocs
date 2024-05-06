@@ -1,3 +1,6 @@
+---
+outline: "deep"
+---
 # Workspace
 In GazePlotter, the workspace is the main area where you can view and interact with your eye-tracking data visualizations. In the workspace, you can view multiple scarf plots at the same time, therefore compare different participants or stimuli, and analyze the data in detail.
 

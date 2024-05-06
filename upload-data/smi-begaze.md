@@ -59,6 +59,6 @@ Then click `Export` to export the data.
 After that, click the `Upload data` button (see [GazePlotter GUI overview](/basic/)) and select both the first exported `.csv` file and the second one for starting the upload and visualization.
 
 ## Adding dynamic AOI visibility information
-If you have dynamic AOI visibility information you wish to visualize, firstly export and upload the data as in the one of the previous sections. Then follow instruction in [AOI visibility](/basic/aoi-visibility.md) section.
+If you have dynamic AOI visibility information you wish to visualize, firstly export and upload the data as in the one of the previous sections. Then follow instruction in [AOI visibility](/basic/aoi-visibility/) section.
 
 

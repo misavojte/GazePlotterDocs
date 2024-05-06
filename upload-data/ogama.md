@@ -2,7 +2,7 @@
 GazePlotter supports the upload of data from the [OGAMA](https://ogama.net) eye-tracking software. 
 
 ::: warning
-Big limitation of OGAMA export is support only for ordinal type of timeline (see [Timelines](/basic/timelines.md)) in interactive scarf plots. OGAMA doesn't support dynamic AOI visibility information.
+Big limitation of OGAMA export is support only for ordinal type of timeline (see [Timelines](/basic/timelines/)) in interactive scarf plots. OGAMA doesn't support dynamic AOI visibility information.
 :::
 ::: warning
 OGAMA export doesn't support dynamic AOI visibility information.

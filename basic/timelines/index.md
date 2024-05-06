@@ -1,6 +1,7 @@
 # Timeline representations
 In GazePlotter's scar plots, you can switch between different timeline representations just by clicking on the timeline representation button (see [Scarf plot](/basic/scarf-plot/)).
 
+## Available timelines in scarf plots
 The following timeline representations are available:
 1. absolute time (in milliseconds)
 2. relative time (to the duration of the dwell time of the participant with the highest dwell time)

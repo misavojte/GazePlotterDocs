@@ -1,6 +1,7 @@
 # Clip timeline
 Clip timeline is a feature in GazePlotter that allows you to clip the timeline of the scarf plot to a specific time interval. This can be useful for focusing on a specific part of the data, or unifying the timeline across multiple scarf plots for easier comparison.
 
+## Steps for clipping the timeline
 Steps and width of the absolute time timeline is by default determined automatically (value = 0). Steps and the highest value are set to display the whole timeline in a 'nice' way. You can modify the highest value of the absolute timeline and ordinal timeline by:
 1. Click on the `More options` button in the top right corner of the scarf plot.
 2. Select `Clip timeline` from the pop-up menu.

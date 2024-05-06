@@ -46,7 +46,7 @@ export default defineConfig({
           {text: 'AOI customization', link: '/basic/aoi-customization/'},
           {text: 'Adding AOI visibility', link: '/basic/aoi-visibility/'},
           {text: 'Clip timeline', link: '/basic/clip-timeline/'},
-          {text: 'ScanGraph integration', link: '/basic/scangraph-integration/'},
+          {text: 'ScanGraph integration', link: '/basic/scangraph/'},
         ]
       },
       {

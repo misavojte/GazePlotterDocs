@@ -1,3 +1,6 @@
+---
+outline: "deep"
+---
 # Adding AOI visibility data
 
 GazePlotter supports the upload of AOI visibility data, allowing for the effective visualization of dynamic AOIs and their visibility in the stimulus. This enhances interpretability of the data and allows for more detailed analysis. 

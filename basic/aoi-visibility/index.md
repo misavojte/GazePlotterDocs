@@ -22,11 +22,11 @@ As seen on Figure 1, adding AOI visibility data to the workplace have following 
 2. In the pop-up menu, select `Add AOI visibility data`.
 3. In new window, select the `.xml` file with AOI visibility data (either from SMI BeGaze or Tobii Pro Lab).
 4. Select whether to add the AOI visibility data to all participants or only to the selected one.
-5. Click `Start parsing` button. The AOI visibility data will be added to the workplace.
+5. Click `Apply` button. The AOI visibility data will be added to the workplace.
 
-![](img/aoi-visibility/1.png)
+![Steps for adding dynamic AOI visibility data to the GazePlotter workplace](./1.png)
 
 ## Interactivity
 Each AOI visibility data is represented by a colored line. This is expanded and thus highlighted when the mouse is moved over the corresponding AOI category in the legend.
 
-![](img/aoi-visibility/2.png)
+![Interactivity of the dynamic AOI visibility data in the GazePlotter scarf plot](./2.png)

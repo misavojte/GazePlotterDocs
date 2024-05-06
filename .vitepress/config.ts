@@ -39,10 +39,14 @@ export default defineConfig({
         text: 'Basic Usage',
         items: [
           {text: 'GazePlotter overview', link: '/basic/'},
-          {text: 'Timelines', link: '/basic/timelines'},
-          {text: 'Customizing scarf plot', link: '/basic/customizing-scarf-plot'},
-          {text: 'Adding AOI visibility', link: '/basic/aoi-visibility'},
-          {text: 'ScanGraph integration', link: '/basic/scangraph-integration'},
+          {text: 'Workspace', link: '/basic/workspace/'},
+          {text: 'Scarf plot', link: '/basic/scarf-plot/'},
+          {text: 'Timelines', link: '/basic/timelines/'},
+          {text: 'Participant grouping', link: '/basic/groups/'},
+          {text: 'AOI customization', link: '/basic/aoi-customization/'},
+          {text: 'Adding AOI visibility', link: '/basic/aoi-visibility/'},
+          {text: 'Clip timeline', link: '/basic/clip-timeline/'},
+          {text: 'ScanGraph integration', link: '/basic/scangraph-integration/'},
         ]
       },
       {

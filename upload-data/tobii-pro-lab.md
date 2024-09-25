@@ -23,6 +23,7 @@ Select only the following metrics for export to speed up the upload process:
 | Recording name          |
 | Presented Stimulus name |
 | Eye movement type       |
+| Eye movement type index |
 | Event                   |
 | AOI hit                 |
 

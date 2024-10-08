@@ -26,6 +26,10 @@ Segment is determined by the homogenity of the `AOI`, `Participant` and `Stimulu
 All the other rows in the segment will be ignored.
 :::
 
+::: warning
+Name of the columns is case sensitive.
+:::
+
 ### Examples
 The following CSV example contains one segment with two rows. The segment starts at 0 ms and ends at 100 ms. The participant is `Participant 1`, the stimulus is `Stimulus 1` and the AOI is `AOI 1`.
 ```csv
@@ -55,3 +59,7 @@ Time,Participant,Stimulus,AOI\r\n
 100,Participant 1,Stimulus 1,AOI 2\r\n
 125,Participant 1,Stimulus 1,AOI 2\r\n
 ```
+
+### Sample data
+
+You can download the sample data, including other formats, from [OSF Sample Data Storage](https://osf.io/j58v3).

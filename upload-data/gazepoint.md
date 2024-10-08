@@ -10,6 +10,6 @@ In the GazePoint Analysis software, select `Analyze Data > Export > Select CSV D
 
 User data is then exported into multiple CSV format of two types, XXXX-user.csv and XXXX-user-fix.csv. To GazePlotter, only the XXXX-user.csv file is important - select all of them after clicking `Upload data` button (see [GazePlotter GUI overview](/basic/).
 
-### Sample data
+## Sample data
 
 You can download the sample data, including other formats, from [OSF Sample Data Storage](https://osf.io/j58v3).

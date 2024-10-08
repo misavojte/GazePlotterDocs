@@ -62,6 +62,6 @@ After that, click the `Upload data` button (see [GazePlotter GUI overview](/basi
 If you have dynamic AOI visibility information you wish to visualize, firstly export and upload the data as in the one of the previous sections. Then follow instruction in [AOI visibility](/basic/aoi-visibility/) section.
 
 
-### Sample data
+## Sample data
 
 You can download the sample data, including other formats, from [OSF Sample Data Storage](https://osf.io/j58v3).

@@ -31,6 +31,6 @@ Then click `Export` to export the data.
 
 The exported `.tsv` file can be then simply uploaded to the workplace by clicking the `Upload data` button (see [GazePlotter GUI overview](/basic/)) and selecting this file for upload.
 
-### Sample data
+## Sample data
 
 You can download the sample data, including other formats, from [OSF Sample Data Storage](https://osf.io/j58v3).

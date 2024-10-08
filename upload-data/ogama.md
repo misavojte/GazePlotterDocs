@@ -21,6 +21,6 @@ Then click `OK` to export the data.
 
 Select the exported file after clicking `Upload data` button (see more information in [GazePlotter GUI overview](/basic/)) in to start the upload and visualization.
 
-### Sample data
+## Sample data
 
 You can download the sample data, including other formats, from [OSF Sample Data Storage](https://osf.io/j58v3).

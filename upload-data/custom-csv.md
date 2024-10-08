@@ -60,6 +60,6 @@ Time,Participant,Stimulus,AOI\r\n
 125,Participant 1,Stimulus 1,AOI 2\r\n
 ```
 
-### Sample data
+## Sample data
 
 You can download the sample data, including other formats, from [OSF Sample Data Storage](https://osf.io/j58v3).

@@ -43,7 +43,7 @@ export default defineConfig({
           {text: 'Scarf plot', link: '/basic/scarf-plot/'},
           {text: 'Participant grouping', link: '/basic/groups/'},
           {text: 'AOI customization', link: '/basic/aoi-customization/'},
-          {text: 'ScanGraph integration', link: '/basic/scangraph/'},
+          {text: 'Export workspace or data', link: '/basic/export/'},
         ]
       },
       {

@@ -1,6 +1,6 @@
 # Participants customization
 
-Participant customization allows you to rename participants and change their display order in any plot. You can use pattern-based renaming for batch operations or edit individual participant names.
+Participant customization allows you to rename participants and change their display order in plots that display participant names (legends, axes, grouping). You can use pattern-based renaming for batch operations or edit individual participant names.
 
 ## Accessing participant customization
 To customize participants:

@@ -41,6 +41,8 @@ export default defineConfig({
           {text: 'GazePlotter overview', link: '/basic/'},
           {text: 'Workspace', link: '/basic/workspace/'},
           {text: 'Scarf plot', link: '/basic/scarf-plot/'},
+          {text: 'Transition Matrix', link: '/basic/transition-matrix/'},
+          {text: 'Bar Plot', link: '/basic/bar-plot/'},
           {text: 'Participant grouping', link: '/basic/groups/'},
           {text: 'AOI customization', link: '/basic/aoi-customization/'},
           {text: 'Export workspace or data', link: '/basic/export/'},

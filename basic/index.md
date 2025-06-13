@@ -12,3 +12,21 @@ On visiting the website, you will see a demo data visualization. At the top of t
 ![GazePlotter GUI overview with preloaded demo eye-tracking data scarf plot](./1.png)
 
 Below, you can see the main workplace overview with the visualization of the data. Upon start, the GazePlotter will show a scarf plot of a demo data set. This demo data includes two stimuli with 6 areas of interest (AOIs) and 9 participants. Participants are grouped into three groups. Second stimulus includes dynamic AOI visibility data.
+
+## Available visualisations
+
+GazePlotter offers multiple visualization types to analyze your eye-tracking data:
+
+- [Scarf plot](/basic/scarf-plot/) - Interactive sequence charts showing gaze patterns over time
+- [Transition Matrix](/basic/transition-matrix/) - Matrix visualization of gaze transitions between AOIs
+- [Bar Plot](/basic/bar-plot/) - Statistical bar charts for basic quantitative analysis
+
+GazePlotter is designed with a modular architecture, making it easily expandable to accommodate additional visualization types in the future.
+
+## Available data manipulations
+
+GazePlotter provides several tools to customize and manipulate your data for better analysis:
+
+- [AOI customization](/basic/aoi-customization/) - Customize appearance, colors, names, and order of Areas of Interest
+- [Participant grouping](/basic/groups/) - Organize participants into custom groups for comparative analysis
+- [Export workspace or data](/basic/export/) - Export data in various formats including CSV, JSON, and ScanGraph

@@ -45,6 +45,8 @@ export default defineConfig({
           {text: 'Bar Plot', link: '/basic/bar-plot/'},
           {text: 'Participant grouping', link: '/basic/groups/'},
           {text: 'AOI customization', link: '/basic/aoi-customization/'},
+          {text: 'Stimuli customization', link: '/basic/stimuli-customization/'},
+          {text: 'Participants customization', link: '/basic/participants-customization/'},
           {text: 'Export workspace or data', link: '/basic/export/'},
         ]
       },

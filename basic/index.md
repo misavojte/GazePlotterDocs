@@ -28,5 +28,7 @@ GazePlotter is designed with a modular architecture, making it easily expandable
 GazePlotter provides several tools to customize and manipulate your data for better analysis:
 
 - [AOI customization](/basic/aoi-customization/) - Customize appearance, colors, names, and order of Areas of Interest
+- [Stimuli customization](/basic/stimuli-customization/) - Customize and manage stimulus properties and settings
 - [Participant grouping](/basic/groups/) - Organize participants into custom groups for comparative analysis
+- [Participants customization](/basic/participants-customization/) - Customize participant properties and metadata
 - [Export workspace or data](/basic/export/) - Export data in various formats including CSV, JSON, and ScanGraph

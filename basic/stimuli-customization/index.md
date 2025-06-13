@@ -1,6 +1,6 @@
 # Stimuli customization
 
-Stimuli customization allows you to rename stimuli and change their display order in any plot. You can use pattern-based renaming for batch operations or edit individual stimulus names.
+Stimuli customization in GazePlotter allows you to rename stimuli and change their display order in eye-tracking plots. You can use pattern-based renaming for batch operations or edit individual stimulus names.
 
 ## Accessing stimuli customization
 To customize stimuli:

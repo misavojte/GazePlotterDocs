@@ -1,6 +1,6 @@
 # AOI Customization
 
-AOI customization allows you to modify the appearance, names, and order of Areas of Interest (AOIs). You can create AOI groups, change colors, and apply changes across multiple stimuli.
+AOI customization in GazePlotter allows you to modify the appearance, names, and order of Areas of Interest (AOIs) in your eye-tracking visualizations. You can create AOI groups, change colors, and apply changes across multiple stimuli.
 
 ## Accessing AOI customization
 To customize AOIs:

@@ -1,6 +1,6 @@
 # Participant grouping
 
-Participant grouping allows you to organize participants into custom groups for comparative analysis. The interface provides advanced group management with search filtering, bulk operations, and change tracking.
+Participant grouping in GazePlotter allows you to organize participants into custom groups for comparative eye-tracking analysis. The interface provides advanced group management with search filtering, bulk operations, and change tracking.
 
 ## Accessing participant grouping
 To manage participant groups:

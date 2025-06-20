@@ -7,7 +7,7 @@ On visiting the website, you will see a demo data visualization. At the top of t
 1. Upload your own data files to the GazePlotter workplace. The workplace will automatically detect the file type and start a visualization of the data. See [Uploading data](/upload-data/) for more information.
 2. Reload the demo data. This will remove all the data from the workplace and load the demo data again.
 3. Download the workspace as a `.json` file. This file can be later uploaded to the GazePlotter to restore the data with the modifications you made to it.
-4. Export to the ScanGraph format for further AOI analysis. See [Exporting data for ScanGraph](/basic/export/) for more information.
+4. Export to the ScanGraph format for further AOI analysis. See [ScanGraph export](/export/scangraph/) for more information.
 
 ![GazePlotter GUI overview with preloaded demo eye-tracking data scarf plot](./1.png)
 
@@ -25,10 +25,13 @@ GazePlotter is designed with a modular architecture, making it easily expandable
 
 ## Available data manipulations
 
-GazePlotter provides several tools to customize and manipulate your data for better analysis:
+GazePlotter provides tools to customize and manipulate your data:
 
 - [AOI customization](/basic/aoi-customization/) - Customize appearance, colors, names, and order of Areas of Interest
 - [Stimuli customization](/basic/stimuli-customization/) - Customize and manage stimulus properties and settings
 - [Participant grouping](/basic/groups/) - Organize participants into custom groups for comparative analysis
 - [Participants customization](/basic/participants-customization/) - Customize participant properties and metadata
-- [Export workspace or data](/basic/export/) - Export data in various formats including CSV, JSON, and ScanGraph
+
+## Export Options
+
+For exporting data and workspaces, see the dedicated [Export section](/export/) which covers workspace export, segmented data export, and ScanGraph integration.

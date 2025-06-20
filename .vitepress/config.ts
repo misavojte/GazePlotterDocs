@@ -19,6 +19,7 @@ export default defineConfig({
       {text: 'Home', link: '/'},
       {text: 'Uploading Data', link: '/upload-data/'},
       {text: 'Basic Usage', link: '/basic/'},
+      {text: 'Export', link: '/export/'},
       {text: 'Advanced', link: '/advanced/'},
       {text: 'Go to App', link: 'https://gazeplotter.com'}
     ],
@@ -47,7 +48,15 @@ export default defineConfig({
           {text: 'AOI customization', link: '/basic/aoi-customization/'},
           {text: 'Stimuli customization', link: '/basic/stimuli-customization/'},
           {text: 'Participants customization', link: '/basic/participants-customization/'},
-          {text: 'Export workspace or data', link: '/basic/export/'},
+        ]
+      },
+      {
+        text: 'Export',
+        items: [
+          {text: 'Export overview', link: '/export/'},
+          {text: 'Workspace export', link: '/export/workspace/'},
+          {text: 'Segmented data export', link: '/export/segmented-data/'},
+          {text: 'ScanGraph export', link: '/export/scangraph/'},
         ]
       },
       {

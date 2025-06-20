@@ -56,6 +56,7 @@ export default defineConfig({
           {text: 'Export overview', link: '/export/'},
           {text: 'Workspace export', link: '/export/workspace/'},
           {text: 'Segmented data export', link: '/export/segmented-data/'},
+          {text: 'Aggregated data export', link: '/export/aggregated-data/'},
           {text: 'ScanGraph export', link: '/export/scangraph/'},
         ]
       },

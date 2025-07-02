@@ -1,31 +1,59 @@
 # Welcome to GazePlotter Guide & Docs
-GazePlotter is a free tool dedicated to transforming eye-tracking data into dynamic and interactive scarf plots. Designed with a commitment to open science, GazePlotter offers a user-friendly platform for analyzing and visualizing eye gaze data without the hassle of registration, ads, or server storage. 
 
-This tool is perfect for researchers, students, and professionals seeking a straightforward and efficient way to work with eye-tracking data from various devices.
+GazePlotter is a free web application for eye-tracking data analysis and visualization. Built with a commitment to open science, GazePlotter transforms complex gaze data into intuitive, interactive visualizations without requiring registration, subscriptions, or server uploads.
 
-## Key features
-1. **Interactive Scarf Plots:** Transform eye-tracking data into dynamic scarf plots that illustrate the sequence and duration of fixations, offering a clear, customizable visualization of gaze patterns.
+Whether you're a researcher analyzing attention patterns, a student learning about eye-tracking methodology, or a professional presenting gaze data insights, GazePlotter provides tools that work entirely in your browser without installing any other software.
 
-2. **Multi-Device Compatibility:** Seamlessly compatible with major eye trackers like Tobii and SMI, GazePlotter facilitates easy data integration for diverse research needs.
+## Analysis Suite
 
-3. **Offline Data Privacy:** Operates entirely offline, ensuring your data privacy and security while allowing use on various devices without internet dependency.
+### Multiple Visualization Types
+- **[Scarf Plots](/basic/scarf-plot/)** - Interactive timeline visualizations showing gaze sequences and patterns over time
+- **[Bar Plots](/basic/bar-plot/)** - Statistical analysis with metrics like dwell time, fixation count, and time to first fixation
+- **[Transition Matrices](/basic/transition-matrix/)** - Heat map visualizations of gaze movement patterns between Areas of Interest
 
-## Navigate to Guide
-- [Start uploading your data](/upload-data/index.md)
-- [Basic functionality](/basic/index.md)
-- [Advanced functionality](/advanced/index.md)
+### Universal Data Compatibility
+GazePlotter supports data from all major eye-tracking platforms:
+- **[Tobii Pro Lab](/upload-data/tobii-pro-lab)** - Full feature support with dynamic AOI visibility
+- **[SMI BeGaze](/upload-data/smi-begaze)** - Complete compatibility including overlapping AOI handling
+- **[OGAMA](/upload-data/ogama)** - Sequence analysis support
+- **[GazePoint](/upload-data/gazepoint)** - Direct data import
+- **[Varjo](/upload-data/varjo)** - VR/AR eye-tracking data
+- **[Custom CSV](/upload-data/custom-csv)** - Flexible format for any eye-tracker
 
-## Source code
-Source code of GazePlotter is open-source, licensed under GNU GPL v3. You can modify it for your own needs.
+### Advanced Features
+- **[Workspace Management](/basic/workspace/)** - Multi-plot layouts with drag-and-drop functionality
+- **[Participant Grouping](/basic/groups/)** - Comparative analysis between different participant groups
+- **[AOI Customization](/basic/aoi-customization/)** - Full control over colors, names, and visual properties
+- **[Data Export](/export/)** - Multiple export formats including ScanGraph integration
 
-If you see a bug in app or want a feature to be implemented, raise an issue on a GitHub repository!
+## Privacy & Accessibility
 
-- [GitHub repository](https://github.com/misavojte/GazePlotter)
-- [GitHub repository of Docs](https://github.com/misavojte/GazePlotterDocs)
+- **Complete Privacy** - All processing happens locally in your browser; no data ever leaves your device
+- **No Registration** - Start analyzing immediately without accounts or sign-ups
+- **Progressive Web App** - [Install as desktop app](/advanced/download-gazeplotter) or use directly in browser
+- **Cross-Platform** - Works on Windows, Mac, Linux, and mobile devices
+- **Offline Capable** - Continue working without internet connection
 
-### npm package
-GazePlotter is built on Svelte. You can use it as a Svelte component by installing a npm package into your project:
+## Getting Started
 
-```
-npm install gazeplotter
-```
+Ready to visualize your eye-tracking data? Choose your path:
+
+- **New to GazePlotter?** Start with [uploading your data](/upload-data/) to see your first visualization
+- **Ready to analyze?** Explore [basic functionality](/basic/) to learn about plots and customization
+- **Need advanced features?** Check out [export options](/export/) and [advanced capabilities](/advanced/)
+
+## Open Source & Community
+
+GazePlotter is open-source software licensed under GNU GPL v3, ensuring it remains free and transparent forever.
+
+**Contribute & Support:**
+- [Main Application Repository](https://github.com/misavojte/GazePlotter) - Report bugs, request features, or contribute code
+- [Documentation Repository](https://github.com/misavojte/GazePlotterDocs) - Help improve this guide
+- [npm Package](https://www.npmjs.com/package/gazeplotter) - Integrate GazePlotter into your own Svelte projects
+
+**Academic Use:**
+If you use GazePlotter in your research, please consider citing our work to support continued development and help other researchers discover this tool.
+
+---
+
+*Developed by [Michaela Vojtěchovská](https://vojtechovska.com/) and Stanislav Popelka at the [Department of Geoinformatics, Palacký University Olomouc](https://geoinformatics.upol.cz/)*

@@ -1,11 +1,14 @@
 # OGAMA upload
 GazePlotter supports the upload of data from the [OGAMA](https://ogama.net) eye-tracking software. 
 
-::: warning
-Big limitation of OGAMA export is support only for ordinal type of timeline (see [Timelines](/basic/timelines/)) in interactive scarf plots. OGAMA doesn't support dynamic AOI visibility information.
-:::
-::: warning
-OGAMA export doesn't support dynamic AOI visibility information.
+::: warning Limited analysis capabilities
+Since OGAMA data is limited to ordinal timeline representation, this affects all analysis capabilities in GazePlotter:
+- **[Bar plots](/basic/bar-plot/)** - Temporal metrics (like dwell time, time to first fixation) cannot be calculated accurately
+- **[Transition matrices](/basic/transition-matrix/)** - Dwell time aggregation methods will not work properly  
+- **[Scarf plots](/basic/scarf-plot/)** - Only sequence order is preserved, not actual timing information
+- **[Export segmented data](/export/segmented-data/)** - Temporal analysis in external tools will be limited
+
+For full temporal analysis capabilities, consider using eye-tracking software that supports absolute or relative timeline export.
 :::
 
 ## Export & upload

@@ -51,13 +51,20 @@ In the legend, you can highlight all segments of a specific category (fixations,
 
 ## More options
 After clicking on the `More options` button, a pop-up menu with additional options for the scarf plot will appear. The following options are available:
-1. **Customize AOIs** - opens the `AOIs Settings` tab in the settings window, where you can change the color, order, and name of the AOIs (see [Customize AOIs](/basic/aoi-customization/)).
-2. **Add AOI visibility data** - opens a window for adding AOI visibility data to the scarf plot (see [Adding AOI visibility data](#adding-aoi-visibility-data)).
-3. **Participant grouping** - opens a window for grouping participants in the scarf plot (see [Participant grouping](/basic/groups/)).
-4. **Clip timeline** - opens a window for clipping the timeline in the scarf plot (see [Clipping the timeline](#clipping-the-timeline)).
-5. **Download scarf plot** - downloads the scarf plot as an image file (PNG, JPEG, WEBP or SVG).
-6. **Duplicate scarf plot** - duplicates the scarf plot in the nearest empty space in the workspace (see [Workspace](/basic/workspace/)).
-7. **Delete scarf plot** - deletes the scarf plot from the workspace (see [Workspace](/basic/workspace/)).
+
+### Customization Options
+- **AOI customization** - Modify colors, names, and order of Areas of Interest. See [AOI Customization](/basic/aoi-customization/) for details.
+- **Stimulus customization** - Manage stimulus properties and settings. See [Stimuli Customization](/basic/stimuli-customization/) for details.
+- **Participant customization** - Customize individual participant properties and metadata. See [Participants Customization](/basic/participants-customization/) for details.
+- **Setup participants groups** - Create and modify participant groups for comparative analysis. See [Participant Groups](/basic/groups/) for details.
+
+### Data and Timeline Options
+- **AOI visibility** - Add dynamic AOI visibility data to enhance visualization (see [Adding AOI visibility data](#adding-aoi-visibility-data)).
+- **Clip timeline** - Modify timeline ranges and limits for focused analysis (see [Clipping the timeline](#clipping-the-timeline)).
+
+### Export Options
+- **Download plot** - Export the scarf plot as an image file with customizable settings (see [Download Plot](#download-plot)).
+- **Export segmented data** - Export processed eye-tracking data for external analysis (see [Export Data](#export-data)).
 
 ![Scarf plot more options in the GazePlotter tool](./2.png)
 
@@ -111,3 +118,29 @@ Steps and width of the absolute time timeline is by default determined automatic
 ::: danger
 If you change the width of the absolute time timeline to lower value than the width of the longest scanpath, the scanpath will be cut off.
 :::
+
+## Download Plot
+
+Export individual scarf plots as image files through the menu button (⋮) → **Download plot**:
+
+### Export Options
+- **File formats**: PNG (recommended, transparent background) or JPG (white background)
+- **Dimensions**: Customizable width (height calculated automatically based on content)
+- **Quality**: Adjustable DPI setting for screen (96 DPI) or print (300 DPI) use
+- **Margins**: Configurable top, right, bottom, left margins (negative values crop the image)
+- **Preview**: Live preview of your exported plot before downloading
+
+### Usage
+1. Click the menu button (⋮) in the scarf plot
+2. Select **Download plot**
+3. Adjust export settings as needed
+4. Preview your plot in the dialog
+5. Click **Download** to save the file
+
+## Export Data
+
+Export the processed eye-tracking data for external analysis through the menu button (⋮) → **Export segmented data**.
+
+This provides access to the raw fixation sequences, timing data, and AOI mappings in CSV format for analysis in R, Python, SPSS, or other statistical software.
+
+For detailed information about data export options and formats, see [Segmented Data Export](/export/segmented-data/).

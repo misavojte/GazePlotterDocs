@@ -65,6 +65,42 @@ Use custom scale ranges to standardize comparisons across different datasets or 
 
 All customization changes require clicking **Apply** to take effect.
 
+## Download Plot
+
+Export individual bar plots as image files through the menu button (⋮) → **Download plot**:
+
+### Export Options
+- **File formats**: PNG (recommended) or JPG
+- **Dimensions**: Customizable width (height calculated automatically at 5:3 aspect ratio)
+- **Quality**: Adjustable DPI setting for print or web use
+- **Margins**: Configurable top, right, bottom, left margins
+- **Preview**: Live preview of your exported plot before downloading
+
+### Usage
+1. Click the menu button (⋮) in the bar plot
+2. Select **Download plot**
+3. Adjust export settings as needed
+4. Preview your plot in the dialog
+5. Click **Download** to save the file
+
+## Export Data
+
+Export the calculated statistical data for external analysis through the menu button (⋮) → **Export aggregated data**.
+
+This provides access to all computed metrics (absolute time, relative time, fixation counts, etc.) in CSV format for analysis in R, Python, SPSS, or other statistical software.
+
+For detailed information about data export options and formats, see [Aggregated Data Export](/export/aggregated-data/).
+
+## Additional Menu Options
+
+The bar plot menu (⋮) provides quick access to customization features:
+
+- **AOI customization** - Modify colors, names, and order of Areas of Interest. See [AOI Customization](/basic/aoi-customization/) for details.
+- **Stimulus customization** - Manage stimulus properties and settings. See [Stimuli Customization](/basic/stimuli-customization/) for details.  
+- **Setup participants groups** - Create and modify participant groups for comparative analysis. See [Participant Groups](/basic/groups/) for details.
+
+These options allow you to modify your data presentation without leaving the bar plot view.
+
 ## Interpretation
 
 Use Bar Plot to:
@@ -72,9 +108,5 @@ Use Bar Plot to:
 - **Quantify differences** - get precise measurements rather than visual estimates
 - **Group comparisons** - analyze how different participant groups behave
 - **Statistical analysis** - export exact values for further statistical processing
-
-::: tip Customization Options
-Additional customization options and detailed configuration settings will be documented as they become available.
-:::
 
 <!-- Screenshot to be added --> 

@@ -19,6 +19,7 @@ export default defineConfig({
       {text: 'Home', link: '/'},
       {text: 'Uploading Data', link: '/upload-data/'},
       {text: 'Basic Usage', link: '/basic/'},
+      {text: 'Export', link: '/export/'},
       {text: 'Advanced', link: '/advanced/'},
       {text: 'Go to App', link: 'https://gazeplotter.com'}
     ],
@@ -41,12 +42,22 @@ export default defineConfig({
           {text: 'GazePlotter overview', link: '/basic/'},
           {text: 'Workspace', link: '/basic/workspace/'},
           {text: 'Scarf plot', link: '/basic/scarf-plot/'},
-          {text: 'Timelines', link: '/basic/timelines/'},
+          {text: 'Transition Matrix', link: '/basic/transition-matrix/'},
+          {text: 'Bar Plot', link: '/basic/bar-plot/'},
           {text: 'Participant grouping', link: '/basic/groups/'},
           {text: 'AOI customization', link: '/basic/aoi-customization/'},
-          {text: 'Adding AOI visibility', link: '/basic/aoi-visibility/'},
-          {text: 'Clip timeline', link: '/basic/clip-timeline/'},
-          {text: 'ScanGraph integration', link: '/basic/scangraph/'},
+          {text: 'Stimuli customization', link: '/basic/stimuli-customization/'},
+          {text: 'Participants customization', link: '/basic/participants-customization/'},
+        ]
+      },
+      {
+        text: 'Export',
+        items: [
+          {text: 'Export overview', link: '/export/'},
+          {text: 'Workspace export', link: '/export/workspace/'},
+          {text: 'Segmented data export', link: '/export/segmented-data/'},
+          {text: 'Aggregated data export', link: '/export/aggregated-data/'},
+          {text: 'ScanGraph export', link: '/export/scangraph/'},
         ]
       },
       {

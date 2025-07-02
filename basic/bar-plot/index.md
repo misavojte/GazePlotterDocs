@@ -87,7 +87,7 @@ Export individual bar plots as image files through the menu button (⋮) → **D
 
 Export the calculated statistical data for external analysis through the menu button (⋮) → **Export aggregated data**.
 
-This provides access to all computed metrics (absolute time, relative time, fixation counts, etc.) in CSV format for analysis in R, Python, SPSS, or other statistical software.
+This provides access to all computed eye-tracking metrics (absolute time, relative time, fixation counts, etc.) in CSV format for analysis in R, Python, SPSS, or other statistical software.
 
 For detailed information about data export options and formats, see [Aggregated Data Export](/export/aggregated-data/).
 

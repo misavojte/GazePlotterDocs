@@ -1,6 +1,6 @@
 # Workspace Export
 
-Export your complete GazePlotter workspace as a JSON file. This format preserves all visualization settings, layouts, and customizations.
+Export your complete GazePlotter workspace as a JSON file. This format preserves all eye-tracking visualization settings, layouts, and customizations for your analysis.
 
 ## Use Cases
 
@@ -12,11 +12,11 @@ Export your complete GazePlotter workspace as a JSON file. This format preserves
 ## What's Included
 
 The workspace export contains:
-- Visualization types and arrangements
+- Eye-tracking visualization types and arrangements
 - Plot settings and customizations
 - Participant groupings
 - AOI customizations
-- Filter configurations
+- Data filter configurations
 
 ## Export Process
 

@@ -69,7 +69,7 @@ After clicking on the `More options` button, a pop-up menu with additional optio
 ![Scarf plot more options in the GazePlotter tool](./2.png)
 
 ## Adding AOI visibility data
-GazePlotter supports the upload of AOI visibility data, allowing for the effective visualization of dynamic AOIs and their visibility in the stimulus. This enhances interpretability of the data and allows for more detailed analysis. 
+GazePlotter supports the upload of AOI visibility data, allowing for the effective visualization of dynamic AOIs and their visibility in the stimulus. This enhances interpretability of your eye-tracking data and allows for more detailed analysis. 
 
 ### Getting AOI visibility data
 ::: warning

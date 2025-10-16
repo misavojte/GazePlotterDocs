@@ -18,6 +18,7 @@ GazePlotter supports data from all major eye-tracking platforms:
 - **[OGAMA](/upload-data/ogama)** - Sequence analysis support
 - **[GazePoint](/upload-data/gazepoint)** - Direct data import
 - **[Varjo](/upload-data/varjo)** - VR/AR eye-tracking data
+- **[Pupil Cloud](/upload-data/pupil-cloud)** - Multi-surface support with AOI mapping
 - **[Custom CSV](/upload-data/custom-csv)** - Flexible format for any eye-tracker
 
 ### Advanced Features

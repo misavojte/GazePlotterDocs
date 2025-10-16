@@ -20,6 +20,7 @@ The workplace supports the following file types:
 - [GazePoint](./gazepoint.md)
 - [SMI BeGaze](./smi-begaze.md)
 - [Varjo XR](./varjo.md)
+- [Pupil Cloud](./pupil-cloud.md)
 - [Custom CSV](./custom-csv.md)
 
 ### Workplace data import

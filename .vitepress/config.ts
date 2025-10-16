@@ -36,6 +36,7 @@ export default defineConfig({
           {text: 'OGAMA upload', link: '/upload-data/ogama'},
           {text: 'GazePoint upload', link: '/upload-data/gazepoint'},
           {text: 'Varjo upload', link: '/upload-data/varjo'},
+          {text: 'Pupil Cloud upload', link: '/upload-data/pupil-cloud'},
           {text: 'Custom CSV', link: '/upload-data/custom-csv'},
         ]
       },

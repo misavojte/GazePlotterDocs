@@ -26,6 +26,6 @@ The workspace supports the following file types:
 ### workspace data import
 You can also select `.json` data from the GazePlotter workspace for data upload. This is useful if you want to share your data with someone else.
 
-## Reload demo data button
+## Reload Demo button
 
-To revert the workspace to its initial state, hit `Reload demo data` button. This will remove all the data from the workspace and load the demo data again.
+To revert the workspace to its initial state, hit `Reload Demo` button. This will remove all the data from the workspace and load the demo data again.

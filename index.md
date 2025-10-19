@@ -41,7 +41,7 @@ GazePlotter supports data from all major eye-tracking platforms:
 
 Ready to visualize your eye-tracking data? Choose your path:
 
-- **New to GazePlotter?** Start with [uploading your data](/upload-data/) to see your first visualization
+- **New to GazePlotter?** Start with [uploading your data](/upload-data/#upload-data-button) to see your first visualization
 - **Ready to analyze?** Explore [basic functionality](/basic/) to learn about plots and customization
 - **Need advanced features?** Check out [export options](/export/) and [advanced capabilities](/advanced/)
 

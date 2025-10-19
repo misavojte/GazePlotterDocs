@@ -9,26 +9,26 @@ GazePlotter is a free web application for analyzing eye-tracking data. Simply vi
 - You'll see a demo visualization with sample data
 
 **Step 2: Upload Your Data** 
-- Click "Import workspace or data" at the top
+- Click ["Import workspace or data"](/upload-data/#upload-data-button) at the top
 - Select your eye-tracking data file
 - GazePlotter automatically detects the file type and creates visualizations
 
 **Step 3: Explore Your Data**
 - Use the controls in each plot to switch between participants, stimuli, and time views
-- Click and drag plots to move them around
-- Use the workspace toolbar to add more visualizations
+- Click and drag plots to [move them around](/basic/workspace/#move-plot)
+- Use the [workspace toolbar](/basic/workspace/#workspace-toolbar) to add more visualizations
 
 **Step 4: Save Your Work**
-- Click "Export workspace or data" to save your analysis
-- Choose "Workspace" to save everything for later or sharing with colleagues
+- Click ["Export workspace or data"](/export/) to save your analysis
+- Choose ["Workspace"](/export/workspace/) to save everything for later or sharing with colleagues
 
 ## Main Workspace Controls
 
 At the top of the GazePlotter workspace, you'll find these essential controls:
 
-1. **Import workspace or data** - Upload your eye-tracking data files (automatically detects file type)
-2. **Reload Demo** - Reset to the sample data if you want to start over
-3. **Export workspace or data** - Save your analysis or export data for other tools
+1. **[Import workspace or data](/upload-data/#upload-data-button)** - Upload your eye-tracking data files (automatically detects file type)
+2. **[Reload Demo](/upload-data/#reload-demo-button)** - Reset to the sample data if you want to start over
+3. **[Export workspace or data](/export/)** - Save your analysis or export data for other tools
 
 ![GazePlotter GUI overview with preloaded demo eye-tracking data scarf plot](./1.png)
 

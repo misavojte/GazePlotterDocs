@@ -2,6 +2,10 @@
 
 Participant customization in GazePlotter allows you to rename participants and change their display order in eye-tracking plots that display participant names (legends, axes, grouping). You can use pattern-based renaming for batch operations or edit individual participant names.
 
+![Participant customization interface showing pattern renaming section](./participant-customization_1.jpg){width="600" height="400"}
+
+![Participant customization interface showing participants table](./participant-customization_2.jpg){width="600" height="400"}
+
 ## Accessing participant customization
 To customize participants:
 1. Click on the `More options` button in the top right corner of any plot.
@@ -57,6 +61,4 @@ Click on column headers to sort participants:
 The sorting uses natural ordering, so `Participant10` correctly comes after `Participant2` (not alphabetically before it).
 
 ## Applying Changes
-Click `Apply` to save all modifications. Changes are discarded if you close the window without applying.
-
-<!-- Screenshot to be added --> 
+Click `Apply` to save all modifications. Changes are discarded if you close the window without applying. 

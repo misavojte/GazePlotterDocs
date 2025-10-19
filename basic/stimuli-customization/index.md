@@ -2,6 +2,10 @@
 
 Stimuli customization in GazePlotter allows you to rename stimuli and change their display order in eye-tracking plots. You can use pattern-based renaming for batch operations or edit individual stimulus names.
 
+![Stimuli customization interface showing pattern renaming section](./stimuli-customization_1.jpg){width="600" height="400"}
+
+![Stimuli customization interface showing stimuli table](./stimuli-customization_2.jpg){width="600" height="400"}
+
 ## Accessing stimuli customization
 To customize stimuli:
 1. Click on the `More options` button in the top right corner of any plot.
@@ -56,6 +60,4 @@ Click on column headers to sort stimuli:
 The sorting uses natural ordering, so `Stimulus10` correctly comes after `Stimulus2` (not alphabetically before it).
 
 ## Applying Changes
-Click `Apply` to save all modifications. Changes are discarded if you close the window without applying.
-
-<!-- Screenshot to be added --> 
+Click `Apply` to save all modifications. Changes are discarded if you close the window without applying. 

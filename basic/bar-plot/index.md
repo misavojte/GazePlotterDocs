@@ -2,6 +2,8 @@
 
 Bar Plot in GazePlotter provides quantitative analysis of eye-tracking data through bar charts. It aggregates gaze metrics across Areas of Interest (AOIs) for statistical comparison and analysis.
 
+![Eye-tracking bar plot in GazePlotter](./eyetracking-bar-plot-gazeplotter.jpg){width="600" height="400"}
+
 ::: tip Bar plot manipulations in Workspace
 Interested on how to operate with plots in general within the workspace? See:
 - [How to move a plot around workspace?](/basic/workspace/#move-plot)
@@ -116,6 +118,4 @@ Use Bar Plot to:
 - **Compare AOI performance** - identify which areas attract most/least attention
 - **Quantify differences** - get precise measurements rather than visual estimates
 - **Group comparisons** - analyze how different participant groups behave
-- **Statistical analysis** - export exact values for further statistical processing
-
-<!-- Screenshot to be added --> 
+- **Statistical analysis** - export exact values for further statistical processing 

@@ -11,6 +11,11 @@ Whether you're a researcher analyzing attention patterns, a student learning abo
 - **[Bar Plots](/basic/bar-plot/)** - Statistical analysis with metrics like dwell time, fixation count, and time to first fixation
 - **[Transition Matrices](/basic/transition-matrix/)** - Heat map visualizations of gaze movement patterns between Areas of Interest
 
+### Workspace Management
+- **[Workspace Operations](/basic/workspace/)** - Add, duplicate, move, and resize plots with drag-and-drop functionality
+- **[Participant Grouping](/basic/groups/)** - Comparative analysis between different participant groups
+- **[AOI Customization](/basic/aoi-customization/)** - Full control over colors, names, and visual properties
+
 ### Universal Data Compatibility
 GazePlotter supports data from all major eye-tracking platforms:
 - **[Tobii Pro Lab](/upload-data/tobii-pro-lab)** - Full feature support with dynamic AOI visibility
@@ -21,11 +26,8 @@ GazePlotter supports data from all major eye-tracking platforms:
 - **[Pupil Cloud](/upload-data/pupil-cloud)** - Multi-surface support with AOI mapping
 - **[Custom CSV](/upload-data/custom-csv)** - Flexible format for any eye-tracker
 
-### Advanced Features
-- **[Workspace Management](/basic/workspace/)** - Multi-plot layouts with drag-and-drop functionality
-- **[Participant Grouping](/basic/groups/)** - Comparative analysis between different participant groups
-- **[AOI Customization](/basic/aoi-customization/)** - Full control over colors, names, and visual properties
-- **[Data Export](/export/)** - Multiple export formats including ScanGraph integration
+### Data Export
+- **[Export Options](/export/)** - Save and share workspaces, export data, and integrate with ScanGraph
 
 ## Privacy & Accessibility
 

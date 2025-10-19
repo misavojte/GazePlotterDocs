@@ -3,7 +3,21 @@ outline: "deep"
 ---
 # Workspace
 
-In GazePlotter, the workspace is the main area where you can view and interact with your eye-tracking data visualizations. The workspace enables you to create comprehensive dashboards with multiple plots, compare different participants or stimuli, and maintain complete control over your analysis layout.
+The workspace is your main analysis area in GazePlotter. Think of it as your dashboard where you can:
+- **View multiple visualizations** at the same time
+- **Compare different data views** side by side
+- **Organize your analysis** by moving and resizing plots
+- **Create custom layouts** that suit your workflow
+
+This guide shows you how to work with plots in the workspace - the essential skills every GazePlotter user needs.
+
+## Getting Started with Plots
+
+**Your first plot:** When you upload data, GazePlotter automatically creates a scarf plot, a bar plot and a transition matrix. This is your starting point.
+
+**Adding more plots:** Use the "Add Visualization" button in the left toolbar to create more plots.
+
+**Basic plot operations:** Every plot can be moved, resized, duplicated, or removed. These are the fundamental skills you'll use most often.
 
 ## Workspace Toolbar
 

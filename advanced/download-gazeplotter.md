@@ -3,7 +3,8 @@ outline: deep
 ---
 
 # How to download GazePlotter?
-GazePlotter, as a progressive web application (PWA), can be downloaded from the [GazePlotter website](https://gazeplotter.com). The download is available for all the most of major desktop and mobile browsers. 
+
+While GazePlotter works out-of-the-box directly in your browser at [gazeplotter.com](https://gazeplotter.com) without any download required, you can also install it as a progressive web application (PWA) for offline use and a more app-like experience. The PWA download is available for most major desktop and mobile browsers. 
 
 On MacOS, the download of the PWA is available only in Chrome and Edge.
 

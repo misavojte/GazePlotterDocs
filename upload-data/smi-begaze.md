@@ -31,7 +31,7 @@ Make sure that columns are separated by a tabulator (`tab`) and decimal separato
 
 Then click `Export` to export the data.
 
-The exported `.csv` file can be then simply uploaded to the workplace by clicking the `Upload data` button (see [GazePlotter GUI overview](/basic/)) and selecting this file for upload.
+The exported `.csv` file can be then simply uploaded to the workspace by clicking the `Upload data` button (see [GazePlotter GUI overview](/basic/)) and selecting this file for upload.
 
 ### Data with overlaying AOIs
 If you have multiple AOI hits in the same fixation (caused by AOI overlay), firstly export data as in the previous section. 

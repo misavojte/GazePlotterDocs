@@ -29,7 +29,7 @@ Select only the following metrics for export to speed up the upload process:
 
 Then click `Export` to export the data.
 
-The exported `.tsv` file can be then simply uploaded to the workplace by clicking the `Upload data` button (see [GazePlotter GUI overview](/basic/)) and selecting this file for upload.
+The exported `.tsv` file can be then simply uploaded to the workspace by clicking the `Upload data` button (see [GazePlotter GUI overview](/basic/)) and selecting this file for upload.
 
 ## Sample data
 

@@ -70,6 +70,7 @@ export default defineConfig({
           {text: 'Advanced features', link: '/advanced/'},
           {text: 'Source Metadata', link: '/advanced/source-metadata'},
           {text: 'Download GazePlotter', link: '/advanced/download-gazeplotter'},
+          {text: 'Segmented Data workflows', link: '/advanced/segmented-data-workflows'},
           {text: 'App dev & build', link: '/advanced/app-dev-build'},
           {text: 'Docs dev & build', link: '/advanced/docs-dev-build'},
         ]

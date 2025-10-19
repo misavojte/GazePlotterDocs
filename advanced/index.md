@@ -8,3 +8,4 @@ You can also download GazePlotter as a PWA and run it locally on your computer. 
 - [Download GazePlotter](./download-gazeplotter.md)
 - [Build & dev GazePlotter from source code](./app-dev-build.md)
 - [Build & dev GazePlotter Docs from source code](./docs-dev-build.md)
+- [Segmented Data workflows (export → edit → re‑upload)](./segmented-data-workflows.md)

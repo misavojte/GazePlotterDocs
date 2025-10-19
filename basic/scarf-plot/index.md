@@ -4,6 +4,15 @@ outline: "deep"
 # Scarf plot
 Scarf plot (or sequential graph) is a visualization of eye movement data that shows the sequence of fixations and saccades in time. It is a useful tool for analyzing the order of fixations and saccades, and for comparing the scanpaths of different participants or stimuli. Specific areas of interest (AOIs) in the given stimuli are color-coded and displayed in the scarf plot. The scarf plot is the main visualization tool in GazePlotter, and it is used to visualize eye-tracking data from various eye-tracking software.
 
+::: tip Scarf plot manipulations in Workspace
+Interested on how to operate with plots in general within the workspace? See:
+- [How to move a plot around workspace?](/basic/workspace/#move-plot)
+- [How to resize a plot?](/basic/workspace/#resize-plot)
+- [How to duplicate a plot?](/basic/workspace/#duplicate-plot)
+- [How to add a new plot?](/basic/workspace/#add-plot)
+- [How to remove a plot?](/basic/workspace/#remove-plot)
+:::
+
 ## Basic controls
 In GazePlotter, scarf plots have following main controls:
 1. **Title** - the title of the scarf plot, which can be changed by clicking on it.

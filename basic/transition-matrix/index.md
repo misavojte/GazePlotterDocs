@@ -2,6 +2,15 @@
 
 Transition Matrix in GazePlotter provides a visual analysis of gaze transition patterns between Areas of Interest (AOIs). This heat map visualization shows how participants' gaze moves from one AOI to another, revealing scanpath patterns and visual attention flow in eye-tracking research.
 
+::: tip Transition matrix manipulations in Workspace
+Interested on how to operate with plots in general within the workspace? See:
+- [How to move a plot around workspace?](/basic/workspace/#move-plot)
+- [How to resize a plot?](/basic/workspace/#resize-plot)
+- [How to duplicate a plot?](/basic/workspace/#duplicate-plot)
+- [How to add a new plot?](/basic/workspace/#add-plot)
+- [How to remove a plot?](/basic/workspace/#remove-plot)
+:::
+
 ## Overview
 
 The Transition Matrix displays a square matrix where:

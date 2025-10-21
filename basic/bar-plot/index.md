@@ -29,12 +29,51 @@ Select participant groups using the `Group` dropdown:
 
 ### Aggregation Methods
 The `Aggregation` dropdown determines what metric is calculated and displayed:
-- **Absolute Time** - total time spent in each AOI across all participants, summing all fixation durations
-- **Relative Time** - proportional time spent in each AOI as percentages of total viewing time
-- **Time to First Fixation** - average time when participants first looked at each AOI (from stimulus start)
-- **Avg Fixation Duration** - average length of all individual fixations within each AOI across participants
-- **Avg First Fixation Duration** - average duration of the very first fixation each participant made on each AOI
-- **Avg Fixation Count** - average number of separate fixations per participant for each AOI
+
+#### Absolute times
+- **Description**: Total time spent in each AOI across all participants, summing all fixation durations
+- **Values**: Time in milliseconds
+- **Use case**: Understanding total attention allocation across AOIs
+
+#### Relative times
+- **Description**: Proportional time spent in each AOI as percentages of total viewing time
+- **Values**: Percentages (0-100%) where all AOIs sum to 100%
+- **Use case**: Understanding attention distribution as proportions
+
+#### Mean visits
+- **Description**: Average number of distinct encounters participants had with each AOI
+- **Values**: Decimal numbers (e.g., 2.3, 1.7)
+- **Use case**: Understanding how often participants return to or revisit each AOI
+
+#### Mean visit durations
+- **Description**: Average duration of each visit (consecutive fixations) to each AOI
+- **Values**: Time in milliseconds per visit
+- **Use case**: Understanding how long participants typically stay during each visit to an AOI
+
+#### Mean fixation counts
+- **Description**: Average number of separate fixations per participant for each AOI
+- **Values**: Decimal numbers (e.g., 5.2, 3.8)
+- **Use case**: Understanding fixation density and attention granularity
+
+#### Mean fixation durations
+- **Description**: Average length of all individual fixations within each AOI across participants
+- **Values**: Time in milliseconds per fixation
+- **Use case**: Understanding cognitive processing depth for each AOI
+
+#### Mean times to first fixation
+- **Description**: Average time when participants first looked at each AOI (from stimulus start)
+- **Values**: Time in milliseconds
+- **Use case**: Understanding visual salience and attention capture speed
+
+#### Mean first fixation durations
+- **Description**: Average duration of the very first fixation each participant made on each AOI
+- **Values**: Time in milliseconds
+- **Use case**: Understanding initial cognitive processing and attention engagement
+
+#### Hit ratios (seen %)
+- **Description**: Percentage of participants who looked at each AOI at least once
+- **Values**: Percentages (0-100%)
+- **Use case**: Understanding AOI visibility and reach across participants
 
 ## Chart Features
 

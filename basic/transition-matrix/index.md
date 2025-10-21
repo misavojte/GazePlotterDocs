@@ -36,23 +36,38 @@ Select participant groups using the `Group` dropdown:
 ### Aggregation Methods
 The `Aggregation` dropdown determines how transition data is calculated and displayed:
 
-#### Transition Count
+#### Absolute frequency
 - **Description**: Raw number of transitions between AOI pairs summed across all participants
 - **Values**: Integer counts (e.g., 5, 12, 23)
 - **Use case**: Understanding absolute frequency of gaze movements between AOIs
 
-#### Transition Probability  
+#### Relative frequency  
+- **Description**: Percentage of all transitions that occur between each AOI pair
+- **Values**: Percentages (0-100%) where all cells sum to 100%
+- **Use case**: Understanding the relative importance of each transition path compared to all transitions in the stimulus
+
+#### 1-step probability
 - **Description**: Conditional probability of transitioning TO each AOI given you're coming FROM a specific AOI
 - **Values**: Percentages (0-100%) where each row sums to 100%
-- **Use case**: Understanding gaze flow patterns - what percentage of the time does gaze move from AOI A to AOI B?
+- **Use case**: Understanding direct gaze flow patterns - what percentage of the time does gaze move from AOI A to AOI B?
 
-#### Avg Dwell Time
+#### 2-step probability
+- **Description**: Probability of reaching each AOI after exactly 2 transitions (via one intermediate AOI)
+- **Values**: Percentages (0-100%) where each row sums to 100%
+- **Use case**: Understanding indirect gaze patterns - what percentage of the time does gaze follow the path A→X→B?
+
+#### 3-step probability
+- **Description**: Probability of reaching each AOI after exactly 3 transitions (via two intermediate AOIs)
+- **Values**: Percentages (0-100%) where each row sums to 100%
+- **Use case**: Understanding longer gaze sequences - what percentage of the time does gaze follow the path A→X→Y→B?
+
+#### Fixation duration
 - **Description**: Average duration of individual fixations in the "FROM" AOI before making a transition
 - **Values**: Time in milliseconds per individual fixation
 - **Use case**: Understanding how long single fixations last before participants move their gaze
 
-#### Segment Dwell Time
-- **Description**: Average total duration of consecutive fixations on the same AOI(s) before transitioning to a different AOI
+#### Dwell duration
+- **Description**: Average total duration of consecutive fixations on the same AOI before transitioning to a different AOI
 - **Values**: Time in milliseconds for entire segments (e.g., if sequence is A,A,A,A→B, this measures total time of all A fixations)
 - **Use case**: Understanding how long participants dwell on an AOI before switching attention, regardless of number of individual fixations
 

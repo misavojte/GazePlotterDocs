@@ -23,22 +23,31 @@ Choose one or multiple stimuli to include:
 - Each stimulus contributes separate rows to the dataset
 
 ### Metrics Selection
-Choose from five eye-tracking metrics:
+Choose from following eye-tracking metrics:
 
-#### Dwell Time
-Total time spent fixating on each AOI across all fixations.
+#### Absolute Dwell Time
+Total time spent in each AOI (ms) across all fixations.
 
-#### Time to First Fixation  
+#### Relative Dwell Time (%)
+Dwell time as percentage of total viewing time for each AOI.
+
+#### Time to First Fixation
 Time until first fixation on each AOI (from stimulus start). Returns -1 if AOI was never fixated.
 
-#### Average Fixation Duration
-Mean duration of all fixations on each AOI. Returns -1 if AOI was never fixated.
-
 #### First Fixation Duration
-Duration of the very first fixation on each AOI. Returns -1 if AOI was never fixated.
+Duration of the first fixation on each AOI. Returns -1 if AOI was never fixated.
 
 #### Fixation Count
-Total number of separate fixations on each AOI.
+Number of fixations on each AOI.
+
+#### Mean Fixation Duration
+Average duration of fixations on each AOI. Returns -1 if AOI was never fixated.
+
+#### Visit Count
+Number of distinct visits to each AOI (consecutive fixations count as one visit).
+
+#### Mean Visit Duration
+Average duration of visits to each AOI. Returns -1 if AOI was never visited.
 
 ## CSV Format
 
